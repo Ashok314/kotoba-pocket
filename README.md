@@ -46,7 +46,7 @@ python3 -m http.server 8000 --directory site
 
 `http://localhost:8000` で日本語版、`http://localhost:8000/en.html` で英語版を確認できます。ページ右上でも言語を切り替えられます。
 
-サイトの文言は `site/locales/ja.json` と `site/locales/en.json`、レイアウトは `site/page.html`、スタイルは `site/styles.css` にあります。`npm run build` で日英のHTMLとサイト用アイコンを生成します。色は拡張と共通の `theme.json` を使い、端末のライト・ダーク設定に合わせて表示します。サイトは静的HTMLなので、GitHub Pagesでは `site/` を公開できます。自動公開はまだ設定していません。
+サイトの文言は `site/locales/ja.json` と `site/locales/en.json`、レイアウトは `site/page.html`、スタイルは `site/styles.css` にあります。`npm run build` で日英のHTMLとサイト用アイコンを生成します。色は拡張と共通の `theme.json` を使い、端末のライト・ダーク設定に合わせて表示します。サイトは静的HTMLなので、GitHub Pagesでは `site/` を公開できます。GitHubの Settings → Pages → Build and deployment → Source を GitHub Actions に設定してください。`.github/workflows/pages.yml` がmainへのpush時にビルド・検証して `site/` を公開します。Actionsの「Deploy site to GitHub Pages」から手動実行もできます。
 
 ## データとCSV
 
