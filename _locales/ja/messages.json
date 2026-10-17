@@ -1,0 +1,73 @@
+{
+  "extensionName": { "message": "ことばポケット" },
+  "extensionDescription": {
+    "message": "選択した単語を端末に保存。ショートカットや右クリックで集めて、CSVで書き出せます。"
+  },
+  "openTitle": { "message": "ことばポケットを開く" },
+  "tagline": { "message": "気になったことばを、あとで。" },
+  "menuSave": { "message": "ことばポケットに保存" },
+  "commandSave": { "message": "選択した単語を保存" },
+  "captureTitle": { "message": "選択中のことば" },
+  "listTitle": { "message": "保存したことば" },
+  "saveButton": { "message": "選択したことばを保存" },
+  "exportButton": { "message": "CSVを書き出す" },
+  "moreButton": { "message": "さらに表示" },
+  "deleteButton": { "message": "削除" },
+  "deleteLabel": { "message": "「{word}」を削除" },
+  "countLabel": { "message": "保存した単語数 {count}" },
+  "emptyTitle": { "message": "ことばを集めてみましょう" },
+  "emptyBody": {
+    "message": "ページで単語を選び、保存ボタン、右クリック、ショートカットで追加できます。"
+  },
+  "localLabel": { "message": "この端末に保存" },
+  "privacyLink": { "message": "プライバシー" },
+  "languageLabel": { "message": "表示言語" },
+  "languageJapanese": { "message": "日本語" },
+  "languageEnglish": { "message": "English" },
+  "shortcutTitle": { "message": "ショートカットを変更" },
+  "shortcutUnset": { "message": "キーを設定" },
+  "shortcutHint": {
+    "message": "ショートカットが未設定です。クリックして設定できます。"
+  },
+  "shortcutError": {
+    "message": "Chromeの拡張機能設定からショートカットを変更できます。"
+  },
+  "previewLoading": { "message": "ページの選択内容を確認しています…" },
+  "previewUnavailable": {
+    "message": "このページでは選択内容を取得できません。通常のウェブページでお試しください。"
+  },
+  "selectWord": { "message": "ページで保存したい単語を選択してください。" },
+  "selectionTooLong": {
+    "message": "選択した文章が長すぎます。5,000文字以内で選び直してください。"
+  },
+  "sourceUnavailable": {
+    "message": "保存元のページ情報を取得できませんでした。"
+  },
+  "restrictedPage": {
+    "message": "通常のウェブページで単語を選択してください。Chromeの設定画面などでは使えません。"
+  },
+  "storedDataInvalid": {
+    "message": "保存データを読み込めませんでした。拡張機能を削除せず、問題を報告してください。"
+  },
+  "deleteWordMissing": { "message": "削除する単語を選択してください。" },
+  "unknownOperation": { "message": "この操作には対応していません。" },
+  "sourceTabMissing": { "message": "保存元のタブを開いてください。" },
+  "wordAlreadySaved": { "message": "この単語はすでに保存されています。" },
+  "saved": { "message": "単語を保存しました。" },
+  "deleted": { "message": "単語を削除しました。" },
+  "exportStarted": { "message": "CSVの書き出しを開始しました。" },
+  "nothingToExport": { "message": "保存した単語がありません。" },
+  "quotaExceeded": {
+    "message": "保存容量がいっぱいです。CSVを書き出して、不要な単語を削除してください。"
+  },
+  "operationFailed": {
+    "message": "操作できませんでした。通常のウェブページでもう一度お試しください。保存済みの単語は削除されません。"
+  },
+  "loadFailed": {
+    "message": "読み込みに失敗しました。拡張機能を開き直してください。"
+  },
+  "csvWord": { "message": "単語・フレーズ" },
+  "csvTitle": { "message": "ページ名" },
+  "csvUrl": { "message": "保存元URL" },
+  "csvSavedAt": { "message": "保存日時" }
+}

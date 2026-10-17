@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{lang}}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{description}}" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{{pageTitle}}</title>
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="tokens.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{{skip}}</a>
+    <header class="site-header wrap">
+      <a class="brand" href="{{homeUrl}}" aria-label="{{homeLabel}}"><img src="assets/icon.svg" width="40" height="40" alt="" /><span>{{name}}</span></a>
+      <nav class="site-nav"><a href="#features">{{navFeatures}}</a><a href="#how">{{navHow}}</a><a href="#privacy">{{navPrivacy}}</a></nav>
+      <a class="language" href="{{otherUrl}}" lang="{{otherLang}}" hreflang="{{otherLang}}" aria-label="{{languageLabel}}">{{language}} <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main" class="wrap">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>{{eyebrow}}</p>
+          <h1>{{heroTitle}}</h1><p class="lede">{{heroBody}}</p>
+          <div class="actions"><a class="button primary" href="#how">{{primaryAction}} <span aria-hidden="true">↗</span></a><a class="button" href="#features">{{secondaryAction}}</a></div>
+          <p class="release">{{release}}</p>
+        </div>
+        <figure class="demo" aria-label="{{demoLabel}}">
+          <div class="demo-stage">
+            <div class="reading-card"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>{{browserTitle}}</span></div><div class="reading-content"><span class="small-label">{{example}}</span><h2>{{articleTitle}}</h2><p>{{articleBefore}}<mark>{{articleWord}}</mark>{{articleAfter}}</p><div class="text-lines" aria-hidden="true"><i></i><i></i></div></div></div>
+            <div class="pocket-preview"><div class="preview-brand"><img src="assets/icon.svg" width="32" height="32" alt="" /><strong>{{name}}</strong><span class="tiny-dot" aria-hidden="true"></span></div><div class="selected"><span class="small-label">{{selectionLabel}}</span><strong>{{articleWord}}</strong><span class="save-example">＋ {{saveExample}}</span></div><div class="collection-heading"><strong>{{savedLabel}}</strong><span>03</span></div><div class="word-row"><div><strong>{{sampleWord}}</strong><small>{{sampleSource}}</small></div><span aria-hidden="true">↗</span></div><div class="word-row"><strong>{{sampleWord2}}</strong><span aria-hidden="true">↗</span></div><div class="word-row"><strong>{{sampleWord3}}</strong><span aria-hidden="true">↗</span></div><div class="preview-footer"><span>{{sampleCount}}</span><span>↓ CSV</span></div></div>
+            <img class="floating-logo" src="assets/icon.svg" width="72" height="72" alt="" />
+          </div>
+          <figcaption><span aria-hidden="true">✦</span> {{demoCaption}} <span class="example-label">{{example}}</span></figcaption>
+        </figure>
+      </section>
+      <div class="trust-strip"><span><b aria-hidden="true">↳</b> {{local}}</span><span><b aria-hidden="true">○</b> {{noAccount}}</span><span><b aria-hidden="true">↓</b> {{export}}</span></div>
+      <section class="section" id="features"><div class="section-heading"><p class="eyebrow">{{featureEyebrow}}</p><h2>{{featureTitle}}</h2></div><div class="features"><article class="feature"><span class="feature-symbol" aria-hidden="true">⌘</span><h3>{{feature1Title}}</h3><p>{{feature1Body}}</p></article><article class="feature"><span class="feature-symbol" aria-hidden="true">↗</span><h3>{{feature2Title}}</h3><p>{{feature2Body}}</p></article><article class="feature"><span class="feature-symbol" aria-hidden="true">↓</span><h3>{{feature3Title}}</h3><p>{{feature3Body}}</p></article></div></section>
+      <section class="section" id="how"><div class="section-heading"><p class="eyebrow">{{howEyebrow}}</p><h2>{{howTitle}}</h2></div><ol class="steps"><li><span class="step-number" aria-hidden="true">01</span><h3>{{step1Title}}</h3><p>{{step1Body}}</p></li><li><span class="step-number" aria-hidden="true">02</span><h3>{{step2Title}}</h3><p>{{step2Body}}</p></li><li><span class="step-number" aria-hidden="true">03</span><h3>{{step3Title}}</h3><p>{{step3Body}}</p></li></ol><div class="shortcut-panel"><div><h3>{{shortcutTitle}}</h3><p>{{shortcutBody}}</p><small>{{shortcutNote}}</small></div><div class="keys"><span>Mac <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>Y</kbd></span><span>Windows / Linux <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd></span></div></div></section>
+      <section class="section privacy-section" id="privacy"><div><p class="eyebrow">{{privacyEyebrow}}</p><h2>{{privacyTitle}}</h2></div><div><p>{{privacyBody}}</p><p class="privacy-note">{{privacyNote}}</p><a class="text-link" href="{{privacyUrl}}">{{privacyLink}} <span aria-hidden="true">↗</span></a></div></section>
+      <section class="closing"><img src="assets/icon.svg" width="64" height="64" alt="" /><h2>{{readyTitle}}</h2><p>{{readyBody}}</p><span class="coming-soon"><span class="status-dot" aria-hidden="true"></span>{{readyStatus}}</span></section>
+    </main>
+    <footer class="wrap"><a class="brand" href="{{homeUrl}}"><img src="assets/icon.svg" width="28" height="28" alt="" /><span>{{name}}</span></a><span class="footer-note">{{footerNote}}</span><a href="{{privacyUrl}}">{{navPrivacy}}</a><a href="{{otherUrl}}" lang="{{otherLang}}" hreflang="{{otherLang}}">{{language}}</a></footer>
+  </body>
+</html>

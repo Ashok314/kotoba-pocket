@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Privacy — Kotoba Pocket</title>
+    <link rel="stylesheet" href="../tokens.css" />
+    <style>
+      body {
+        background: var(--bg);
+        color: var(--text);
+        max-width: 720px;
+        margin: 48px auto;
+        padding: 0 24px;
+        font:
+          15px/1.9 system-ui,
+          sans-serif;
+      }
+      h1 {
+        font-size: 26px;
+      }
+      h2 {
+        font-size: 18px;
+        margin-top: 30px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kotoba Pocket privacy</h1>
+    <p>
+      Kotoba Pocket stores words and phrases you select, the source page title
+      and URL, and the time saved in Chrome's extension-local storage on this
+      device.
+    </p>
+    <h2>Storage and use</h2>
+    <p>
+      The data is used to display your vocabulary, open source pages when
+      requested, and create CSV downloads. It survives browser restarts.
+      Uninstalling the extension removes local entries. You can delete
+      individual entries. CSV export leaves them unchanged.
+    </p>
+    <h2>Data transmission</h2>
+    <p>
+      The extension does not upload vocabulary or page information to the
+      developer, Google Drive or other servers. There are no analytics,
+      advertising, accounts, tracking or remote executable code. Opening a
+      source link navigates to that website at your request. CSV files are
+      downloaded through the browser.
+    </p>
+    <h2>Page access</h2>
+    <p>
+      The popup reads the current selection for a preview. A word is saved only
+      when you use the save button, context menu or keyboard shortcut. Password
+      fields and browsing history are not read.
+    </p>
+    <ul>
+      <li>
+        Storage permission keeps vocabulary and language preferences locally.
+      </li>
+      <li>
+        Temporary active-tab and scripting permissions retrieve selected text
+        and display brief feedback after an extension action.
+      </li>
+      <li>Context-menu permission provides the right-click save action.</li>
+    </ul>
+    <p>
+      Google Drive and Google Sheets integration are not included in this
+      version.
+    </p>
+  </body>
+</html>

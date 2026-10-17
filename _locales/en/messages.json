@@ -1,0 +1,73 @@
+{
+  "extensionName": { "message": "Kotoba Pocket" },
+  "extensionDescription": {
+    "message": "Save selected words locally with a shortcut or right-click, review them later, and export your vocabulary as CSV."
+  },
+  "openTitle": { "message": "Open Kotoba Pocket" },
+  "tagline": { "message": "A little pocket for new words." },
+  "menuSave": { "message": "Save to Kotoba Pocket" },
+  "commandSave": { "message": "Save the selected word" },
+  "captureTitle": { "message": "Selected word" },
+  "listTitle": { "message": "Your vocabulary" },
+  "saveButton": { "message": "Save selected word" },
+  "exportButton": { "message": "Export CSV" },
+  "moreButton": { "message": "Show more" },
+  "deleteButton": { "message": "Delete" },
+  "deleteLabel": { "message": "Delete “{word}”" },
+  "countLabel": { "message": "Saved words: {count}" },
+  "emptyTitle": { "message": "Make room for new words" },
+  "emptyBody": {
+    "message": "Select a word on a web page, then use the save button, right-click menu, or keyboard shortcut."
+  },
+  "localLabel": { "message": "Saved on this device" },
+  "privacyLink": { "message": "Privacy" },
+  "languageLabel": { "message": "Display language" },
+  "languageJapanese": { "message": "日本語" },
+  "languageEnglish": { "message": "English" },
+  "shortcutTitle": { "message": "Change keyboard shortcut" },
+  "shortcutUnset": { "message": "Set shortcut" },
+  "shortcutHint": {
+    "message": "No shortcut is assigned. Click to choose one."
+  },
+  "shortcutError": {
+    "message": "Open Chrome's extension keyboard shortcuts to change the keys."
+  },
+  "previewLoading": { "message": "Checking the page selection…" },
+  "previewUnavailable": {
+    "message": "Selection is unavailable on this page. Try a regular web page."
+  },
+  "selectWord": { "message": "Select a word on the page first." },
+  "selectionTooLong": {
+    "message": "Choose a shorter word or phrase, up to 5,000 characters."
+  },
+  "sourceUnavailable": {
+    "message": "The source page information is unavailable."
+  },
+  "restrictedPage": {
+    "message": "Use a regular web page. Chrome settings and other protected pages are not supported."
+  },
+  "storedDataInvalid": {
+    "message": "Saved data could not be read. Keep the extension installed and report the issue."
+  },
+  "deleteWordMissing": { "message": "Choose a saved word to delete." },
+  "unknownOperation": { "message": "This action is not supported." },
+  "sourceTabMissing": { "message": "Open the source page first." },
+  "wordAlreadySaved": { "message": "This word is already saved." },
+  "saved": { "message": "Word saved." },
+  "deleted": { "message": "Word deleted." },
+  "exportStarted": { "message": "CSV download started." },
+  "nothingToExport": { "message": "Save a word before exporting." },
+  "quotaExceeded": {
+    "message": "Storage is full. Export your CSV, then delete unneeded entries."
+  },
+  "operationFailed": {
+    "message": "The action failed. Try again on a regular web page. Existing entries are kept."
+  },
+  "loadFailed": {
+    "message": "Unable to load. Close and reopen the extension."
+  },
+  "csvWord": { "message": "Word or phrase" },
+  "csvTitle": { "message": "Page title" },
+  "csvUrl": { "message": "Source URL" },
+  "csvSavedAt": { "message": "Saved at" }
+}

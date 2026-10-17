@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>プライバシー — ことばポケット</title>
+    <link rel="stylesheet" href="../tokens.css" />
+    <style>
+      body {
+        max-width: 720px;
+        margin: 48px auto;
+        padding: 0 24px;
+        font:
+          15px/1.9 system-ui,
+          sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+      h1 {
+        font-size: 26px;
+      }
+      h2 {
+        font-size: 18px;
+        margin-top: 30px;
+      }
+      a {
+        color: var(--accent);
+      }
+      li {
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ことばポケットのプライバシー</h1>
+    <p>
+      ことばポケットは、ユーザーがウェブページで選択した単語やフレーズと、ページ名、URL、保存日時を、この端末のChrome拡張用の保存領域に記録します。
+    </p>
+    <h2>保存と利用</h2>
+    <p>
+      保存した情報は単語の一覧表示、元ページを開く操作、ユーザーが指定したCSVの書き出しに使います。Chromeを閉じても残りますが、拡張機能を削除すると端末内の保存データは消えます。不要な単語は一覧から削除できます。CSVの書き出しは保存データを変更しません。
+    </p>
+    <h2>外部への送信</h2>
+    <p>
+      単語やページ情報を開発者、Google
+      Drive、その他のサーバーへ送信しません。広告、利用状況の分析、アカウント登録、追跡、外部からの実行コードの読み込みはありません。保存元のリンクを押したときは、指定したウェブサイトを開きます。CSVはブラウザを通じてファイルに保存されます。
+    </p>
+    <h2>ページへのアクセス</h2>
+    <p>
+      ポップアップを開くと、選択中の文字を確認して表示します。保存ボタン、右クリック、ショートカットを操作したときだけ単語を記録します。パスワード欄や閲覧履歴を読み取る機能はありません。
+    </p>
+    <ul>
+      <li>ローカル保存の権限は、単語一覧と表示言語の設定を保持するために使います。</li>
+      <li>
+        現在のタブへの一時アクセスとスクリプト実行の権限は、選択文字の取得と保存結果の表示に使います。
+      </li>
+      <li>
+        右クリックメニューの権限は、選択した単語を保存する項目に使います。
+      </li>
+    </ul>
+    <p>
+      Google Drive・Google Sheets連携は、今回のバージョンには含まれていません。
+    </p>
+  </body>
+</html>

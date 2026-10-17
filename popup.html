@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="tokens.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <script type="module" src="src/popup.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="brand">
+        <img src="icons/icon-32.png" alt="" width="32" height="32" />
+        <div>
+          <h1 data-i18n="extensionName"></h1>
+          <p data-i18n="tagline"></p>
+        </div>
+      </div>
+      <span id="count" class="count">—</span>
+      <select id="language" class="language">
+        <option value="ja" data-i18n="languageJapanese"></option>
+        <option value="en" data-i18n="languageEnglish"></option>
+      </select>
+    </header>
+    <main>
+      <section class="capture" aria-labelledby="capture-title">
+        <div class="section-heading">
+          <h2 id="capture-title" data-i18n="captureTitle"></h2>
+          <button
+            id="shortcut-settings"
+            class="shortcut"
+            type="button"
+            data-i18n-title="shortcutTitle"
+            data-i18n="shortcutUnset"
+          ></button>
+        </div>
+        <p id="selection" class="selection"></p>
+        <button id="save" class="primary" type="button" disabled>
+          <span aria-hidden="true">＋</span>
+          <span data-i18n="saveButton"></span>
+        </button>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </section>
+      <section class="vocabulary" aria-labelledby="list-title">
+        <div class="section-heading list-heading">
+          <h2 id="list-title" data-i18n="listTitle"></h2>
+          <button id="export" class="secondary" type="button" disabled>
+            <span data-i18n="exportButton"></span>
+            <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+        <div id="empty" class="empty" hidden>
+          <div class="empty-icon" aria-hidden="true">＋</div>
+          <h3 data-i18n="emptyTitle"></h3>
+          <p data-i18n="emptyBody"></p>
+        </div>
+        <ul id="entries" class="entries"></ul>
+        <button
+          id="more"
+          class="more secondary"
+          type="button"
+          hidden
+          data-i18n="moreButton"
+        ></button>
+      </section>
+    </main>
+    <footer>
+      <span class="local-dot" aria-hidden="true"></span
+      ><span data-i18n="localLabel"></span>
+      <span class="footer-divider">·</span>
+      <a
+        id="privacy-link"
+        href="privacy/en.html"
+        target="_blank"
+        rel="noopener"
+        data-i18n="privacyLink"
+      ></a>
+    </footer>
+  </body>
+</html>

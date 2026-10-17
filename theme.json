@@ -1,0 +1,30 @@
+{
+  "brand": { "primary": "#1c7356", "paper": "#f7f4df", "pocket": "#72c6a2" },
+  "light": {
+    "bg": "#f7f8f5",
+    "surface": "#ffffff",
+    "text": "#1b2d27",
+    "muted": "#6a7971",
+    "border": "#e2e8e1",
+    "accent": "#1c7356",
+    "tint": "#eef5ef",
+    "error": "#a33e2d",
+    "on-accent": "#ffffff"
+  },
+  "dark": {
+    "bg": "#141c19",
+    "surface": "#1c2721",
+    "text": "#e9f0ea",
+    "muted": "#a2b2a7",
+    "border": "#304036",
+    "accent": "#298464",
+    "tint": "#253b2e",
+    "error": "#f19b84",
+    "on-accent": "#ffffff"
+  },
+  "feedback": {
+    "success": "#17745a",
+    "error": "#b45336",
+    "shadow": "#102c2426"
+  }
+}
